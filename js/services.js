@@ -4,7 +4,6 @@ $.fn.searchData = async function () {
 
     var settings = {
         'cache': false,
-        'dataType': "jsonp",
         "async": true,
         "crossDomain": true,
         url,
