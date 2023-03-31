@@ -8,5 +8,5 @@ $.fn.searchData = async function () {
     };
 
     const response = await fetch(url, options)
-    console.log(1213, response)
+    console.log(1213, response.json())
 }
