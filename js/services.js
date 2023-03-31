@@ -14,8 +14,8 @@ $.fn.searchData = function () {
         }
     };
 
-    xhr.onerror = function () {
-        console.error("Erro na solicitação.");
+    xhr.onerror = function (data) {
+        console.error("Erro na solicitação.", data);
     };
 
     xhr.send();
