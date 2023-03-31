@@ -24,7 +24,10 @@ $.fn.searchData = async function () {
     }
 
     $.ajax(settings).done(function (response) {
-        console.log(response);
+        console.log(222, response);
 
-    });
+    }).fail(function (response) {
+        console.log(3333, response);
+
+    }).
 }
