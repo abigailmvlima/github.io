@@ -6,12 +6,21 @@ $.fn.searchData = async function () {
         'cache': false,
         "async": true,
         "crossDomain": true,
+        
+        responseType: 'application/json',
+        xhrFields: {
+            withCredentials: false
+        },
+        headers: {
+            'Access-Control-Allow-Credentials': true,
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET',
+            'Access-Control-Allow-Headers': 'application/json',
+            "accept": "application/json",
+        },
+
         url,
         "method": "GET",
-        "headers": {
-            "accept": "application/json",
-            "Access-Control-Allow-Origin": "*"
-        }
     }
 
     $.ajax(settings).done(function (response) {
