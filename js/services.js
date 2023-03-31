@@ -27,5 +27,5 @@ $.fn.searchData = async function () {
     }).fail(function (response) {
         console.log(3333, response);
 
-    }).
+    });
 }
