@@ -8,6 +8,7 @@ $.fn.searchData = function () {
     };
 
     fetch(url, options)
+        .then(response => response )
         .then(response => console.log(1111,response.json()) )
         .catch(err => console.error(222, err));
 
