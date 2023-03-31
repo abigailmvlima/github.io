@@ -10,6 +10,7 @@ $.fn.searchData = async function () {
     try {
         const response = await fetch(url, options);
         if (!response.ok) {
+            console.log(4444, response)
             throw new Error('Erro na solicitação.');
         }
         const data = await response.json();
