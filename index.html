@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Traveller</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/forms.css" media="screen" />
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <script src="js/moment.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <header class="menu">
+        <a href="#">
+            <i class="text-logo mr10 fa fa-bed"></i>
+            <span class="text-logo">Traveller</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner-search">
+            <div class="search-reserve">
+                <div class="header">
+                    <div>
+                        <h2>Encontre hotéis no Traveller</h2>
+                        <p>
+                            Encontre sua melhor experiência e torne sua viagem inesquecível.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="input-search">
+                    <label>
+                        <span>Localização</span>
+                        <input type="text" placeholder="Em qualquer lugar" />
+                        <div class="input-layout"></div>
+                    </label>
+                </div>
+
+                <div class="row-input">
+                    <div class="input-search">
+                        <label>
+                            <span>Entrada</span>
+                            <input type="date" id="dateStart" />
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                    <div class="input-search">
+                        <label>
+                            <span>Saída</span>
+                            <input type="date" id="dateEnd" />
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row-input">
+                    <div class="input-search">
+                        <label>
+                            <span>Adultos</span>
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                    <div class="input-search">
+                        <label>
+                            <span>Crianças</span>
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="row button-search">
+                    <button type="execute"><span>Buscar</span></button>
+                </div>
+            </div>
+            <img src="images/ponte-estaiada.webp" alt="" />
+        </div>
+        <div class="assessments">
+            <h2>O que os hóspedes estão falando sobre as acomodações</h2>
+            <p>
+                Mais de <strong>490.000 avaliações</strong> com uma média de
+                <strong>4.8</strong> de <strong>5 estrelas</strong>
+            </p>
+
+            <div class="box-base">
+                <div class="box-hotel">
+                    <img src="images/blue-motumbi.jpg" alt="" />
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Excelente localização e estrutura. Tivemos uma ótima estadia.
+                        </p>
+                    </div>
+                    <div class="foto">
+                        <img src="images/foto-gilberto.jpg" alt="" />
+                        <div>
+                            <span>Gilberto</span>
+                            <p>Brasil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-hotel">
+                    <img src="images/renassance.jpg" alt="" />
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Ótimo hotel, a cama é grande , o chuveiro muito bom e o café da
+                            manhã excelente.
+                        </p>
+                    </div>
+                    <div class="foto">
+                        <img src="images/foto-abigail.jpg" alt="" />
+                        <div>
+                            <span>Abigail</span>
+                            <p>Brasil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-hotel">
+                    <img src="images/sheraton.jpg" alt="" />
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Serviço de quarto 24h. Suítes novas e espaçosas Academia muito
+                            boa. O hotel possui um pequeno shopping em anexo.
+                        </p>
+                    </div>
+                    <div class="foto">
+                        <img src="images/foto-kaique.jpg" alt="" />
+                        <div>
+                            <span>Kaique</span>
+                            <p>Brasil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sac">
+            <h2>Reserve no Traveller e viaje com tranquilidade</h2>
+
+            <div class="box-base">
+                <div class="box-hotel">
+                    <i class="fa fa-shield"></i>
+                    <h3>Proteção com o Traveller</h3>
+                    <p>
+                        A proteção mais ampla para estadias. Sempre incluso, sempre
+                        gratuito.
+                    </p>
+                </div>
+
+                <div class="box-hotel">
+                    <i class="fa fa-file"></i>
+                    <h3>Opções de cancelamento flexíveis</h3>
+                    <p>
+                        As opções de cancelamento facilitam a remarcação de reservas se
+                        seus planos mudarem.
+                    </p>
+                </div>
+
+                <div class="box-hotel">
+                    <i class="fa fa-phone-square"></i>
+                    <h3>Atendimento ao cliente 24h</h3>
+                    <p>
+                        Fale com nossa equipe de atendimento em qualquer lugar do mundo, a
+                        qualquer hora do dia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2022 Traveller, Inc. All rights reserved</p>
+        <div>
+            <a href="#"><i class="fa fa-facebook-official"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="js/load.js"></script>
+</body>
+
+</html>
