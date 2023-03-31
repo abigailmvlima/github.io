@@ -1,22 +1,21 @@
 
-$.fn.searchData = function () {
-    const xhr = new XMLHttpRequest();
+$.fn.searchData = async function () {
     const url = "https://api.content.tripadvisor.com/api/v1/location/search?key=A0A244D2D5D8441CBE2DEFCCF1958378&searchQuery=hotel&category=hotels&latLong=-23.537430585909647%252C%2520-46.51669981349255&language=pt-br";
-
-    xhr.open('GET', url, true);
-
-    xhr.onload = function () {
-        if (this.status === 200) {
-            const data = JSON.parse(this.responseText);
+    $.ajax({
+        url,
+        type: "GET",
+        crossDomain: false,
+        dataType: 'json',
+        headers: {            
+            "Host": "api.content.tripadvisor.com",
+            "Accept": '*',
+            'Access-Control-Allow-Origin': '*'
+        },
+        success: function (data) {
             console.log("Resposta do servidor: ", data);
-        } else {
-            console.error("Erro na solicitação: ", this.statusText);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log(111, jqXHR, textStatus, errorThrown);
         }
-    };
-
-    xhr.onerror = function (data) {
-        console.error("Erro na solicitação.", data);
-    };
-
-    xhr.send();
+    });
 }
