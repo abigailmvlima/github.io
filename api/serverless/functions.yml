@@ -1,0 +1,35 @@
+search:
+    handler: src/lambda/controller.search
+    events:
+        - http:
+            path: /search
+            method: GET
+            cors: false
+
+searchPhotos:
+    handler: src/lambda/controller.searchPhotos
+    events:
+        - http:
+            path: /search/photos
+            method: GET            
+            
+searchNearby:
+    handler: src/lambda/controller.searchNearby
+    events:
+        - http:
+            path: /search/nearby
+            method: GET                        
+
+locationReviews:
+    handler: src/lambda/controller.locationReviews
+    events:
+        - http:
+            path: /location/reviews
+            method: GET            
+
+details:
+    handler: src/lambda/controller.details
+    events:
+        - http:
+            path: /details
+            method: GET

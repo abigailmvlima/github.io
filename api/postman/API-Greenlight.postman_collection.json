@@ -1,0 +1,449 @@
+{
+	"info": {
+		"_postman_id": "9d1e75cc-5675-4bba-947b-fb015cc8e1b8",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3890866"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Consultar Usuario por Codigo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/usuario?id=59a6f9f6633aab53fa6309f1",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"usuario"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "59a6f9f6633aab53fa6309f1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar Todos Usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/usuario",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Elio Lima\",\n    \"email\": \"elio.designer@hotmail.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server}}/usuario?codigo=59a6f9f6633aab53fa6309f1",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"usuario"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "59a6f9f6633aab53fa6309f1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Acesso ao Sistema",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"elio.designer@hotmail.com\",\n    \"senha\": \"Ab@123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server}}/usuario/acesso",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"usuario",
+								"acesso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir Usuario",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Abigail Lima\",\n    \"email\": \"abigail.lima@hotmail.com\",\n    \"senha\": \"Ab@102030\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server}}/usuario",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove Usuario",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/usuario?id=6422e659477c348468f01795",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"usuario"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6422e659477c348468f01795"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Eventos",
+			"item": [
+				{
+					"name": "Participantes",
+					"item": [
+						{
+							"name": "Participante por Codigo",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/evento/participante/?codigo=59a6f9f6633aab53fa6309f1",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"evento",
+										"participante",
+										""
+									],
+									"query": [
+										{
+											"key": "codigo",
+											"value": "59a6f9f6633aab53fa6309f1",
+											"description": "http://localhost:3000/dev"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Participante Todos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/evento/participante",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"evento",
+										"participante"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Participante Atualizar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descricao\": \"Eu quero ir 2\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server}}/evento/participante?id=64241a7393bb4c99a8f0aed5",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"evento",
+										"participante"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "64241a7393bb4c99a8f0aed5"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Participante Inserir",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"usuarioId\": \"59a6f9f6633aab53fa6309f1\",\n    \"eventoId\": \"59a6f9f6633aab53fa6309f1\",\n    \"descricao\": \"Eu quero ir\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{server}}/evento/participante",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"evento",
+										"participante"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Participante Remove",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{server}}/evento/participante?codigo=6421f094129a8e02075b25dc",
+									"host": [
+										"{{server}}"
+									],
+									"path": [
+										"evento",
+										"participante"
+									],
+									"query": [
+										{
+											"key": "codigo",
+											"value": "6421f094129a8e02075b25dc"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Consultar Evento por Codigo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/evento?id=642418901a3aca1c85f6b257",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"evento"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "642418901a3aca1c85f6b257"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar Todos Eventos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/evento",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"evento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Eventos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"titulo\": \"Corrida Branca\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server}}/evento?id=642418901a3aca1c85f6b257",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"evento"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "642418901a3aca1c85f6b257"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir Evento",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"usuarioId\": \"59a6f9f6633aab53fa6309f1\",\n    \"titulo\": \"Corrida no parque\",\n    \"descricao\": \"Encontre seus amigos\",\n    \"data\": \"2023-03-05T22:00:00.000Z\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server}}/evento",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"evento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove Evento",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/evento?id=6421f8e1410e90e1074c8e50",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"evento"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6421f8e1410e90e1074c8e50"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "server",
+			"value": "http://localhost:3000/dev",
+			"type": "string"
+		}
+	]
+}

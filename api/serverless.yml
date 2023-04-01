@@ -1,0 +1,40 @@
+org: traveller
+app: aws-node-express-api-app
+service: traveller
+provider:
+  name: aws
+  timeout: 30
+  memorySize: 128
+  runtime: nodejs14.x
+  region: us-east-1 
+  environment:
+    TRIPADVISOR_URL: 'https://api.content.tripadvisor.com/api/v1'
+    TRIPADVISOR_KEY: 'A0A244D2D5D8441CBE2DEFCCF1958378'
+    
+  iamRoleStatements:
+      - Effect: 'Allow'
+        Action:
+          - 'codedeploy:*'
+          - 's3:*'
+        Resource: '*'
+
+functions: ${file(serverless/functions.yml)}
+
+resources:
+   Resources:
+     GatewayResponseDefault4XX:
+       Type: 'AWS::ApiGateway::GatewayResponse'
+       Properties:
+         ResponseParameters:
+           gatewayresponse.header.Access-Control-Allow-Origin: "'*'"
+           gatewayresponse.header.Access-Control-Allow-Headers: "'*'"
+         ResponseType: DEFAULT_4XX
+         RestApiId:
+           Ref: 'ApiGatewayRestApi'
+
+           
+plugins:
+  - serverless-offline
+
+package:
+  excludeDevDependencies: false
