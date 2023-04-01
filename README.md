@@ -1,6 +1,6 @@
 # Integrantes
-  - Abigail Lima      - RM
-  - Kaique Bernardo   - RM
+  - Abigail Lima      - RM96351
+  - Kaique Bernardo   - RM96395
 
 # Publicação site
 https://abigailmvlima.github.io/gullivertravell/
@@ -14,6 +14,7 @@ https://tripadvisor-content-api.readme.io/reference/overview
 A API do Tripadvisor é uma interface de programação de aplicativos (API, na sigla em inglês) fornecida pelo Tripadvisor, que permite que desenvolvedores integrem dados e recursos do site do Tripadvisor em seus próprios aplicativos e sites.
 A API fornece acesso aos dados do Tripadvisor, incluindo informações sobre hotéis, restaurantes, atrações turísticas, bem como comentários, avaliações e fotos de usuários. Com a API, os desenvolvedores podem criar aplicativos e serviços personalizados, como agregadores de avaliações, guias turísticos, aplicativos móveis de reservas de viagens e muito mais.
 
+<img width="906" alt="image" src="https://user-images.githubusercontent.com/81816418/229257115-92bc0490-c9ad-4533-9190-08fa9df63fce.png">
 
 # Function Lambda para segurança das credenciais
 Lambda é um serviço de computação sem servidor da AWS que permite executar código em resposta a eventos sem precisar gerenciar servidores ou infraestrutura. Ao usar o Lambda, não precisa se preocupar com capacidade, escalabilidade, disponibilidade ou manutenção de servidores. Em vez disso, a AWS cuida de tudo isso para você.
@@ -59,6 +60,10 @@ https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/details?location_id=2
 
 
 <img width="907" alt="image" src="https://user-images.githubusercontent.com/81816418/229256899-d9d20e13-7457-417d-b770-eaaf3c32004d.png">
+
+
+<img width="908" alt="image" src="https://user-images.githubusercontent.com/81816418/229257098-e23eb37e-beee-4f29-abff-b2bfbb01b11d.png">
+
 
 
 
