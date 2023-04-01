@@ -21,3 +21,5 @@ https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/search/nearby?latLong
 
 https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/details?location_id=2406720
 <img width="1831" alt="image" src="https://user-images.githubusercontent.com/81816418/229255636-2f357d06-ac13-45af-8959-739ed4f22922.png">
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/697e0f82-dc6d-46d2-965b-a34cb874268e/Untitled.png)
