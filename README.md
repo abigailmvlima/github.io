@@ -1,11 +1,11 @@
-#site
-
-#Publicação site
+# Publicação site
 https://abigailmvlima.github.io/gullivertravell/
 
-#Tripadvisor
+# Tripadvisor
 https://tripadvisor-content-api.readme.io/reference/overview
 
+
+# Collection Postman
 https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/search?searchQuery=hotel&category=hotels&latLong=-23.537430585909647%252C%2520-46.51669981349255&language=pt-br
 <img width="1815" alt="image" src="https://user-images.githubusercontent.com/81816418/229255441-37df5025-ff88-4db8-af7e-7fb33cec6e4c.png">
 
