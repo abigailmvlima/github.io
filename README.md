@@ -15,6 +15,7 @@
 
 <img width="1233" alt="image" src="https://user-images.githubusercontent.com/81816418/229256688-af372c3b-bd66-41da-ae58-49e90d5031e0.png">
 
+# APIs UTILIZADAS
 
 ## Tripadvisor APi 
 https://tripadvisor-content-api.readme.io/reference/overview
@@ -24,7 +25,14 @@ A API fornece acesso aos dados do Tripadvisor, incluindo informações sobre hot
 
 <img width="906" alt="image" src="https://user-images.githubusercontent.com/81816418/229257115-92bc0490-c9ad-4533-9190-08fa9df63fce.png">
 
+## Utilização dos endpoint e a função de cada um
+
+A utilização dos endpoint do tripadvisor, foi para pesquisa de localidades na apresentação da home no site. Tambem a utilização do endpoint de pesquisa das avaliações da experiencia dos usuarios "Classificação, texto de avaliação e etc …”. Outra para colher os detalhes da localidade podendo ser "Hotel, Restaurante, Ponto turistico e etc …”.
+Por outro lado a lambda com o objetivo de ocultar os dados mais sensiveis do usuario e credenciais de acesso.
+
+
 ## Function Lambda para segurança das credenciais
+
 Lambda é um serviço de computação sem servidor da AWS que permite executar código em resposta a eventos sem precisar gerenciar servidores ou infraestrutura. Ao usar o Lambda, não precisa se preocupar com capacidade, escalabilidade, disponibilidade ou manutenção de servidores. Em vez disso, a AWS cuida de tudo isso para você.
 
 1. Custo: Com o Lambda, você paga apenas pelo tempo que sua função leva para ser executada, sem se preocupar com o tempo de inatividade ou capacidade não utilizada. Isso pode ser muito mais econômico do que manter sua própria infraestrutura ou usar servidores em nuvem tradicionais.
