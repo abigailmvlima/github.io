@@ -3,5 +3,6 @@ $( document ).ready(function() {
     document.getElementById("dateStart").value = today;
     document.getElementById("dateEnd").value = today;
 
-    $.fn.searchData()
+
+    $.fn.loadListaCards()
 });
