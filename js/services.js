@@ -45,13 +45,8 @@ $.fn.loadListaCards = async function () {
         // percorre os 3 primeiros registros
         for (let i = 0; i < data.length && i < 3; i++) {
             const registro = data[i];
-            console.log({registro})
             var photos = await $.fn.request('search/photos', `?location_id=${registro.location_id}`)
-            console.log({photos})
-
             var reviews = await $.fn.request('location/reviews', `?location_id=${registro.location_id}`)
-            console.log({reviews})
-
             var texto = reviews.data[0].text.substring(0, 200)
 
             // cria o card para home
