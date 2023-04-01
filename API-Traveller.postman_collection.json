@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "f8445acf-8ad2-4d28-a766-63d5d3115a7e",
+		"name": "API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3890866"
+	},
+	"item": [
+		{
+			"name": "Consulta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/search?searchQuery=hotel&category=hotels&latLong=-23.537430585909647%252C%2520-46.51669981349255&language=pt-br",
+					"protocol": "https",
+					"host": [
+						"p7167519uh",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"search"
+					],
+					"query": [
+						{
+							"key": "searchQuery",
+							"value": "hotel"
+						},
+						{
+							"key": "category",
+							"value": "hotels"
+						},
+						{
+							"key": "latLong",
+							"value": "-23.537430585909647%252C%2520-46.51669981349255"
+						},
+						{
+							"key": "language",
+							"value": "pt-br"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta Foto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/search/photos?location_id=2406720",
+					"protocol": "https",
+					"host": [
+						"p7167519uh",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"search",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "location_id",
+							"value": "2406720"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "location-reviews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/location/reviews?location_id=2406720",
+					"protocol": "https",
+					"host": [
+						"p7167519uh",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"location",
+						"reviews"
+					],
+					"query": [
+						{
+							"key": "location_id",
+							"value": "2406720"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pesquisa Proximidades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/search/nearby?latLong=-23.53752894777355%2C%20-46.51669981349255&language=pt",
+					"protocol": "https",
+					"host": [
+						"p7167519uh",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"search",
+						"nearby"
+					],
+					"query": [
+						{
+							"key": "latLong",
+							"value": "-23.53752894777355%2C%20-46.51669981349255"
+						},
+						{
+							"key": "language",
+							"value": "pt"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Detalhes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/details?location_id=2406720",
+					"protocol": "https",
+					"host": [
+						"p7167519uh",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"details"
+					],
+					"query": [
+						{
+							"key": "location_id",
+							"value": "2406720"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
