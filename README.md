@@ -1,3 +1,7 @@
+# Integrantes
+  - Abigail Lima      - RM
+  - Kaique Bernardo   - RM
+
 # Publicação site
 https://abigailmvlima.github.io/gullivertravell/
 
