@@ -1,3 +1,4 @@
+## Traveller
 # Integrantes
   - Abigail Lima      - RM96351
   - Kaique Bernardo   - RM96395
@@ -33,7 +34,7 @@ Lambda é um serviço de computação sem servidor da AWS que permite executar c
 Resumindo, o Lambda é uma excelente opção se você deseja executar código em resposta a eventos de maneira eficiente, econômica e sem se preocupar com a administração de servidores.
 
 # Collection Postman
-  - https://github.com/abigailmvlima/traveller/blob/main/API-Traveller.postman_collection.json
+  - Download:https://github.com/abigailmvlima/traveller/blob/main/API-Traveller.postman_collection.json
   
 https://p7167519uh.execute-api.us-east-1.amazonaws.com/dev/search?searchQuery=hotel&category=hotels&latLong=-23.537430585909647%252C%2520-46.51669981349255&language=pt-br
 <img width="1815" alt="image" src="https://user-images.githubusercontent.com/81816418/229255441-37df5025-ff88-4db8-af7e-7fb33cec6e4c.png">
