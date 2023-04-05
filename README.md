@@ -10,7 +10,7 @@
 <img width="1296" alt="image" src="https://user-images.githubusercontent.com/81816418/229257267-0e909b91-6d33-4328-b3d6-7b9d5b0ccc93.png">
 
 ## Publicação site no github.io
-  - https://abigailmvlima.github.io/gullivertravell/
+  - https://abigailmvlima.github.io/traveller/
 
 
 <img width="1233" alt="image" src="https://user-images.githubusercontent.com/81816418/229256688-af372c3b-bd66-41da-ae58-49e90d5031e0.png">
