@@ -372,3 +372,15 @@ footer > div > a i {
 #Mapa {
   width: 50%;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+.text-reserva {
+  display: flex;
+  color: rgb(155, 39, 209);
+}
