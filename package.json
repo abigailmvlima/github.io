@@ -4,7 +4,7 @@
   "description": "## Integrantes   - Abigail Lima      - RM96351   - Kaique Bernardo   - RM96395",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
