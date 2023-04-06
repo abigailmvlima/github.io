@@ -23,7 +23,7 @@ function mapa(latitude, longitude) {
     latitude +
     "," +
     longitude +
-    "&size=600,400@2x";
+    "&size=400,400@2x";
 
   var image = document.createElement("img");
   image.src = url;
