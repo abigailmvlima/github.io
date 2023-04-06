@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   // res.sendFile(__dirname + "/index.html");
   res.status(200).json({});
 });
-const host = "0.0.0.0";
-app.listen(5000, host, () => {
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
   console.log("Server started on port 5000");
 });
