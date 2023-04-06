@@ -1,0 +1,154 @@
+{
+    "data": [
+        {
+            "location_id": "5330218",
+            "name": "Beer's Shop's",
+            "distance": "0.49280991012265946",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Rua Jose Mascarenhas 1313",
+                "street2": "Bairro Novo",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03515-000",
+                "address_string": "Rua Jose Mascarenhas 1313 Bairro Novo, São Paulo, Estado de São Paulo 03515-000 Brasil"
+            }
+        },
+        {
+            "location_id": "5330699",
+            "name": "Estacao Das Pizzas",
+            "distance": "0.3102157975760826",
+            "bearing": "east",
+            "address_obj": {
+                "street1": "Praca Nelson Sales de Abreu 103",
+                "street2": "Centro",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03547-100",
+                "address_string": "Praca Nelson Sales de Abreu 103 Centro, São Paulo, Estado de São Paulo 03547-100 Brasil"
+            }
+        },
+        {
+            "location_id": "15053615",
+            "name": "Hostel Lu Confortavel",
+            "distance": "0.4804449362058191",
+            "bearing": "east",
+            "address_obj": {
+                "street1": "Rua Alto Garcas 818",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03546-000",
+                "address_string": "Rua Alto Garcas 818, São Paulo, Estado de São Paulo 03546-000 Brasil"
+            }
+        },
+        {
+            "location_id": "23047222",
+            "name": "Call Center Burguer",
+            "distance": "0.3284669829858449",
+            "bearing": "east",
+            "address_obj": {
+                "street1": "Praça Nelson Sales De Abreu, 161",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03547-100",
+                "address_string": "Praça Nelson Sales De Abreu, 161, São Paulo, Estado de São Paulo 03547-100 Brasil"
+            }
+        },
+        {
+            "location_id": "5711386",
+            "name": "Francisco Nunes Leite Bar",
+            "distance": "0.5125943326931149",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Rua Eugenia de Carvalho 1076",
+                "street2": "Vl Matilde",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03516-000",
+                "address_string": "Rua Eugenia de Carvalho 1076 Vl Matilde, São Paulo, Estado de São Paulo 03516-000 Brasil"
+            }
+        },
+        {
+            "location_id": "7155979",
+            "name": "toku Sushi",
+            "distance": "0.5526642568316615",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Rua Jose Mascarenhas 1229",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03515-000",
+                "address_string": "Rua Jose Mascarenhas 1229, São Paulo, Estado de São Paulo 03515-000 Brasil"
+            }
+        },
+        {
+            "location_id": "21334493",
+            "name": "Resenha da Vila",
+            "distance": "0.6257063379732",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Rua Dr. Pelágio Marques, 245",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03512-010",
+                "address_string": "Rua Dr. Pelágio Marques, 245, São Paulo, Estado de São Paulo 03512-010 Brasil"
+            }
+        },
+        {
+            "location_id": "10148961",
+            "name": "Roda de Boteco Feijaozinho Bar",
+            "distance": "0.5757952094044531",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Rua Dona Matilde, 582",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03512-000",
+                "address_string": "Rua Dona Matilde, 582, São Paulo, Estado de São Paulo 03512-000 Brasil"
+            }
+        },
+        {
+            "location_id": "6011209",
+            "name": "Vadinho Restaurante",
+            "distance": "0.5416072876490953",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Avenida Marcondes de Brito 1563",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03509-000",
+                "address_string": "Avenida Marcondes de Brito 1563, São Paulo, Estado de São Paulo 03509-000 Brasil"
+            }
+        },
+        {
+            "location_id": "8173933",
+            "name": "Assadao Da Vila",
+            "distance": "0.5544036114590866",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Avenida Marcondes de Brito 1541",
+                "street2": "Ch Seis de Outubro",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03509-000",
+                "address_string": "Avenida Marcondes de Brito 1541 Ch Seis de Outubro, São Paulo, Estado de São Paulo 03509-000 Brasil"
+            }
+        }
+    ]
+}

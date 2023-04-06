@@ -1,5 +1,5 @@
-org: traveller
-app: aws-node-express-api-app
+org: bilima
+app: traveller
 service: traveller
 provider:
   name: aws
@@ -10,12 +10,11 @@ provider:
   environment:
     TRIPADVISOR_URL: 'https://api.content.tripadvisor.com/api/v1'
     TRIPADVISOR_KEY: 'A0A244D2D5D8441CBE2DEFCCF1958378'
+    MOCK_ENABLED: false
     
   iamRoleStatements:
       - Effect: 'Allow'
-        Action:
-          - 'codedeploy:*'
-          - 's3:*'
+        Action: '*'
         Resource: '*'
 
 functions: ${file(serverless/functions.yml)}

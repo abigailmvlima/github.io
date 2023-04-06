@@ -1,0 +1,154 @@
+{
+    "data": [
+        {
+            "location_id": "2406720",
+            "name": "Shangrila Park Hotel",
+            "distance": "1.7533415654952575",
+            "bearing": "north",
+            "address_obj": {
+                "street1": "Avenida Sao Miguel 1745",
+                "street2": "Penha",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03619-100",
+                "address_string": "Avenida Sao Miguel 1745 Penha, São Paulo, Estado de São Paulo 03619-100 Brasil"
+            }
+        },
+        {
+            "location_id": "6746069",
+            "name": "Ceasar Palace Hotel",
+            "distance": "1.8287825950304384",
+            "bearing": "southeast",
+            "address_obj": {
+                "street1": "Avenida Professor Edgar Santos 780",
+                "street2": "Vl Nhocune",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03560-080",
+                "address_string": "Avenida Professor Edgar Santos 780 Vl Nhocune, São Paulo, Estado de São Paulo 03560-080 Brasil"
+            }
+        },
+        {
+            "location_id": "7222276",
+            "name": "OYO Hotel Park Leste",
+            "distance": "1.134356061064516",
+            "bearing": "southwest",
+            "address_obj": {
+                "street1": "Rua Bombaim 103",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03443-060",
+                "address_string": "Rua Bombaim 103, São Paulo, Estado de São Paulo 03443-060 Brasil"
+            }
+        },
+        {
+            "location_id": "300654",
+            "name": "Blue Tree Towers Anália Franco",
+            "distance": "2.9842101115374295",
+            "bearing": "southwest",
+            "address_obj": {
+                "street1": "Rua Eleonora Cintra, 960",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03337-000",
+                "address_string": "Rua Eleonora Cintra, 960, São Paulo, Estado de São Paulo 03337-000 Brasil"
+            }
+        },
+        {
+            "location_id": "4766600",
+            "name": "Hotel Villa da Penha",
+            "distance": "1.7889167454953798",
+            "bearing": "northwest",
+            "address_obj": {
+                "street1": "Avenida Amador Bueno da Veiga 564",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03636-000",
+                "address_string": "Avenida Amador Bueno da Veiga 564, São Paulo, Estado de São Paulo 03636-000 Brasil"
+            }
+        },
+        {
+            "location_id": "9809617",
+            "name": "Hotel Diamante",
+            "distance": "2.0561420082105073",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Rua Diamante Preto 1067",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03405-000",
+                "address_string": "Rua Diamante Preto 1067, São Paulo, Estado de São Paulo 03405-000 Brasil"
+            }
+        },
+        {
+            "location_id": "4512108",
+            "name": "Charlott Park Hotel",
+            "distance": "0.9590011756900594",
+            "bearing": "northwest",
+            "address_obj": {
+                "street1": "R Maria Carlota 788",
+                "street2": "Vila Esperança",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03647-000",
+                "address_string": "R Maria Carlota 788 Vila Esperança, São Paulo, Estado de São Paulo 03647-000 Brasil"
+            }
+        },
+        {
+            "location_id": "8815691",
+            "name": "Polar Rio Hotel",
+            "distance": "1.8250427985358928",
+            "bearing": "west",
+            "address_obj": {
+                "street1": "Rua Dentista Barreto 538",
+                "street2": "Vila Carrão",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03420-000",
+                "address_string": "Rua Dentista Barreto 538 Vila Carrão, São Paulo, Estado de São Paulo 03420-000 Brasil"
+            }
+        },
+        {
+            "location_id": "2624415",
+            "name": "Mava Hotel E Turismo",
+            "distance": "1.7889167454953798",
+            "bearing": "northwest",
+            "address_obj": {
+                "street1": "Avenida Amador Bueno da Veiga 564",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "03636-000",
+                "address_string": "Avenida Amador Bueno da Veiga 564, São Paulo, Estado de São Paulo 03636-000 Brasil"
+            }
+        },
+        {
+            "location_id": "5885882",
+            "name": "Adrenalina Hotel",
+            "distance": "2.837654558422555",
+            "bearing": "east",
+            "address_obj": {
+                "street1": "Avenida Campanella 270",
+                "street2": "",
+                "city": "São Paulo",
+                "state": "Estado de São Paulo",
+                "country": "Brasil",
+                "postalcode": "08220-830",
+                "address_string": "Avenida Campanella 270, São Paulo, Estado de São Paulo 08220-830 Brasil"
+            }
+        }
+    ]
+}
