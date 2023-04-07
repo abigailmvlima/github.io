@@ -30,14 +30,6 @@ function mapa(latitude, longitude) {
     longitude +
     "&size=850,400@2x";
 
-  var mediumMarker = L.icon({
-    iconUrl: "https://assets.mapquestapi.com/icon/v2/marker-md.png",
-    iconRetinaUrl: "https://assets.mapquestapi.com/icon/v2/marker-md@2x.png",
-    iconSize: markerSize.md,
-    iconAnchor: markerAnchor.md,
-    popupAnchor: markerPopupAnchor.md,
-  });
-
   var image = document.createElement("img");
   image.src = url;
 
