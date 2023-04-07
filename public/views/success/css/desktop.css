@@ -376,8 +376,12 @@ footer > div > a i {
 .container {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 80vh;
   justify-content: center;
+  align-items: center;
+}
+.container > img{
+  cursor: pointer;
 }
 
 .text-reserva {
