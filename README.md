@@ -38,7 +38,7 @@
 
 ![Imagem do WhatsApp de 2023-05-08 à(s) 17 57 34](https://user-images.githubusercontent.com/81816418/236947093-5325a336-0414-402d-8311-f7ba18dd4bd9.jpg)
 
-![image](https://user-images.githubusercontent.com/81816418/236947766-9e416d88-2db2-499b-9934-cf55ed781497.png)
+![image](https://user-images.githubusercontent.com/81816418/236947985-74cbeec1-58f2-447d-9f83-8fd650a32fdf.png)
 
 ![image](https://user-images.githubusercontent.com/81816418/236947823-850f216b-87f2-432a-811e-09514bcc020b.png)
 
