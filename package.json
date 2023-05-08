@@ -1,23 +1,20 @@
 {
-  "name": "travaller",
-  "version": "1.0.0",
-  "description": "## Integrantes   - Abigail Lima      - RM96351   - Kaique Bernardo   - RM96395",
+  "name": "aws-traveller-api",
+  "version": "1.0.1",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/abigailmvlima/github.io.git.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abigailmvlima/github.io.git/issues"
+  "devDependencies": {
+    "moment": "^2.29.4",
+    "serverless": "^3.29.0",
+    "serverless-offline": "^12.0.4"
   },
-  "homepage": "https://github.com/abigailmvlima/github.io.git#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.3.4",
+    "mongodb": "^5.1.0"
   }
- 
 }

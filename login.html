@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Travellers</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/forms.css" media="screen" />
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <script src="js/moment.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/services.js"></script>
+</head>
+
+<body onload="carregarMapa()">
+    <header class="menu">
+        <a href="#">
+            <i class="text-logo mr10 fa fa-bed"></i>
+            <span class="text-logo">Traveller</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Cadastre-se</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="banner-search">
+            <div class="search-reserve">
+                <div class="header">
+                    <div>
+                        <h2>Login</h2>
+                    </div>
+                </div>
+
+
+                <div class="row-input">
+                    <div class="input-search">
+                        <label>
+                            <span>Email</span>
+                            <input type="mail" id="email" value="" />
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row-input">
+                    <div class="input-search">
+                        <label>
+                            <span>Senha</span>
+                            <input type="password" id="senha" value="" />
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="row button-search">
+                    <button type="execute" id="btLogin">
+                        <span>Entrar</span>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/img_login_fd.png" alt="desenho do planeta e seus pontos históricos" class="img_log" />
+            </div>
+
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p>© 2023 Traveller, Inc. All rights reserved</p>
+        <div>
+            <a href="#"><i class="fa fa-facebook-official"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="js/mapa.js"></script>
+    <script src="js/load.js"></script>
+</body>
+
+</html>
