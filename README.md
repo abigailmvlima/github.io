@@ -9,3 +9,20 @@
 
 # Resposta de sucesso da API
 ![image](https://user-images.githubusercontent.com/81816418/236941497-d936692b-990f-4ff7-9cd9-6a618e027e3d.png)
+
+# Mensagem tratada do front
+![image](https://user-images.githubusercontent.com/81816418/236942276-f66c78cc-96ba-4858-8a4d-5dfe1053415e.png)
+
+# Validaões dos campos
+![image](https://user-images.githubusercontent.com/81816418/236942485-f700b613-7dea-4f44-85d5-4f3aaef39587.png)
+
+![image](https://user-images.githubusercontent.com/81816418/236942788-3877e96f-d7e3-4e3b-ac7d-b6bbc38c8db7.png)
+
+# Codigo do fornt HTML5 
+![image](https://user-images.githubusercontent.com/81816418/236942961-05889ee7-0517-4f8a-8c85-a9bd8b238eea.png)
+
+# Implementação da chamada jquery para cadastrar os dados e efetuar acesso ao sistema
+![image](https://user-images.githubusercontent.com/81816418/236943392-7f3b0245-3bb1-48ef-9bfa-54a1b18dfac5.png)
+
+# Arquivo de validações .js
+![image](https://user-images.githubusercontent.com/81816418/236943587-7e37d247-ccde-4a48-b355-bcb709c221a7.png)
